@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+section{
+    background:url('./BG.jpg') no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    line-height: 15;
+    height: 913px;
+}
+
+
+.box{
+    width: 15%;
+    height: 25%;
+    color: #fff;
+    transition: 0.5s;
+    background-size: 200% auto;
+    text-decoration: none;
+}
+
+.box-1{
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.box-1:hover{
+    background-position: right center;
+}
+
+.box-2{
+    background-image: linear-gradient(to right, #84fab0 0%, #8fd3f4 51%, #84fab0 100%);
+    position: absolute;
+    top: 25%;
+    right: 0%;
+}
+
+.box-2:hover{
+    background-position: right center;
+}
+
+.box-3{
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    position: absolute;
+    top: 50%;
+    right: 0%;
+}
+
+.box-3:hover{
+    background-position: right center;
+}
+
+.box-4{
+    background-image: linear-gradient(to right, #f6d365 0%, #fda085 51%, #f6d365 100%);
+    position: absolute;
+    top: 75%;
+    right: 0%;
+}
+
+
+.box-4:hover{
+    background-position: right center;
+}
+
